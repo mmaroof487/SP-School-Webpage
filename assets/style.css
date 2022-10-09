@@ -40,26 +40,6 @@
   background-color: ghostwhite;
   color: midnightblue;
 }
-#change:hover #theme {
-  display: block;
-}
-#theme {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  position: absolute;
-  background-color: #ececec;
-  font-family: sans-serif;
-  font-size: small;
-  display: none;
-}
-#theme > li {
-  padding: 15px;
-}
-#theme > li:hover {
-  background-color: ghostwhite;
-  color: midnightblue;
-}
 a {
   color: black;
   text-decoration: none;
