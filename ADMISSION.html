@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>ADMISSION</title>
+    <link rel="stylesheet" href="assests/style.css" />
+  </head>
+  <body class="body">
+    <br />
+    <br />
+    <div id="adm">
+      <center>
+        <u> <b> ADMISSION </b> </u>
+      </center>
+      <br />
+      <br />
+
+      <p>
+        Usually admissions are considered only for 11th. Admission to other
+        classes is subject to vacancies. Admission to 12th is granted by the
+        Principal after the child qualifies in the 11th exams. For the other
+        classes the type of test, the mode of selection, etc are fixed by the
+        Principal. The Principal reserves the rights to use his discretion in
+        the admission rules. Recommendations from people and coercion of any
+        sort will reduce the chance of your child’s admission. <br />
+        <br />
+        For students that are migrating from someother school, they have to wait
+        until orders from the BOARD of Education.<br /><br /><br /><br /><br />
+      </p>
+
+      <center>
+        <table>
+          <form method="get" autocomplete="on">
+            <legend><strong>REGISTRATION</strong></legend>
+            <br />
+            <tr>
+              <td>NAME: &nbsp &nbsp</td>
+              <td>
+                <input
+                  name="r-name"
+                  id="r-name"
+                  type="text"
+                  placeholder="ENTER NAME"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>DATE OF BIRTH: &nbsp &nbsp</td>
+              <td><input type="date" name="r-dob" id="r-dob" required /></td>
+            </tr>
+            <tr>
+              <td>CLASS: &nbsp&nbsp</td>
+              <td>
+                <select name="r-class" id="r-class" size="1" required>
+                  <option value="9th">9th</option>
+                  <option value="10th">10th</option>
+                  <option value="11th">11th</option>
+                  <option value="12th">12th</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>DISTRICT: &nbsp&nbsp</td>
+              <td>
+                <select name="r-district" id="r-district" size="1" required>
+                  <option value="SRINAGAR">SRINAGAR</option>
+                  <option value="GANDERBAL">GANDERBAL</option>
+                  <option value="KUPWARA">KUPWARA</option>
+                  <option value="BUDGAM">BUDGAM</option>
+                  <option value="GANDERBAL">GANDERBAL</option>
+                  <option value="BANDIPURA">BANDIPURA</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>PREVIOUS SCHOOL: &nbsp&nbsp</td>
+              <td>
+                <input
+                  type="text"
+                  name="r-school"
+                  id="r-school"
+                  placeholder="PREVIOUS SCHOOL"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>PREVIOUS YEAR PERCENTAGE:&nbsp&nbsp</td>
+              <td>
+                <input
+                  name="r-marks"
+                  id="r-marks"
+                  type="number"
+                  min="40"
+                  max="100"
+                  step="1"
+                  value="75"
+                />%
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input type="submit" value="SUBMIT" id="sub-adm" />
+              </td>
+            </tr>
+          </form>
+        </table>
+        <br />
+        <button><a href="HOME.html" class="back"> BACK</button></a>
+      </center>
+    </div>
+  </body>
+</html>

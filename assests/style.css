@@ -1,0 +1,149 @@
+.body {
+  width: 1250px;
+  height: auto;
+  margin: auto;
+  background-color: #ececec;
+}
+#parent {
+  background-color: antiquewhite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#logo {
+  float: left;
+}
+#child {
+  background-color: ghostwhite;
+  color: midnightblue;
+  font-weight: bold;
+  font-style: italic;
+  margin: 15px;
+}
+#baby {
+  padding: 0 20px 0 20px;
+  background-color: lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 25px;
+}
+#mainmenu {
+  background-color: #ececec;
+}
+#list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#list > li {
+  display: inline-block;
+}
+#list > li:hover {
+  background-color: ghostwhite;
+  color: midnightblue;
+}
+#change:hover #theme {
+  display: block;
+}
+#theme {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  background-color: #ececec;
+  font-family: sans-serif;
+  font-size: small;
+  display: none;
+}
+#theme > li {
+  padding: 15px;
+}
+#theme > li:hover {
+  background-color: ghostwhite;
+  color: midnightblue;
+}
+a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: small;
+  font-family: sans-serif;
+  padding: 15px;
+}
+a:hover {
+  color: midnightblue;
+}
+#img {
+  float: right;
+}
+#wiki {
+  font-size: medium;
+}
+.tel {
+  padding: 0px;
+}
+.email {
+  padding: 0px;
+}
+#copyright {
+  float: right;
+  margin: 0px;
+}
+#clearfix {
+  clear: both;
+}
+#contact {
+  float: left;
+}
+footer {
+  font-size: small;
+}
+.gallery {
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+}
+#gall {
+  background-color: lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 30px;
+}
+#hist {
+  background-color: antiquewhite;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 30px;
+  padding: 40px;
+}
+#adm {
+  background-color: lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 40px;
+  font-size: 25px;
+}
+td {
+  font-size: 25px;
+  padding: 5px;
+}
+#sub-adm {
+  margin: 20px;
+  background-color: #ececec;
+  color: black;
+}
+#news {
+  background-color: antiquewhite;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 25px;
+  padding: 40px;
+}
+#stream {
+  background-color: lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 40px;
+  font-size: 25px;
+  margin-top: 76px;
+  margin-bottom: 60px;
+}
+#faculty {
+  background-color: antiquewhite;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 25px;
+  padding: 40px;
+}
