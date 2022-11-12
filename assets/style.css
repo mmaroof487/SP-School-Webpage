@@ -157,8 +157,12 @@ td {
     width: 450px;
     height: 250px;
   }
-  a {
-    font-size: 10px;
+  a,
+  #copyright,
+  th,
+  .tel,
+  .email {
+    font-size: x-small;
   }
   audio {
     width: 200px;
@@ -166,11 +170,5 @@ td {
   }
   #wikia {
     font-size: small;
-  }
-  #copyright,
-  th,
-  .tel,
-  .email {
-    font-size: x-small;
   }
 }
