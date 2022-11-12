@@ -3,12 +3,15 @@
   margin: 0;
   padding: 0;
 }
-
+:root {
+  --shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  --grey: #ececec;
+}
 .body {
   max-width: 80%;
   height: auto;
   margin: auto;
-  background-color: #ececec;
+  background-color: var(--grey);
 }
 #parent {
   background-color: antiquewhite;
@@ -27,14 +30,25 @@
   font-style: italic;
   margin: 15px;
 }
-#baby {
-  padding: 0 20px 0 20px;
+#baby,
+#hist,
+#news,
+#faculty {
+  padding: 50px;
   background-color: lightcyan;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: var(--shadow);
+  font-size: 25px;
+}
+#gall,
+#adm,
+#stream {
+  padding: 50px;
+  background-color: antiquewhite;
+  box-shadow: var(--shadow);
   font-size: 25px;
 }
 #mainmenu {
-  background-color: #ececec;
+  background-color: var(--grey);
 }
 #list {
   list-style-type: none;
@@ -91,22 +105,16 @@ footer {
   width: 350px;
   height: 350px;
 }
-#gall {
-  background-color: antiquewhite;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  font-size: 30px;
+
+input[type="submit"] {
+  padding: 5px;
 }
-#hist {
-  background-color: lightcyan;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  font-size: 30px;
-  padding: 40px;
-}
-#adm {
-  background-color: antiquewhite;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  padding: 40px;
-  font-size: 25px;
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  border-radius: 5px;
+  height: 25px;
 }
 td {
   font-size: 25px;
@@ -114,28 +122,8 @@ td {
 }
 #sub-adm {
   margin: 20px;
-  background-color: #ececec;
+  background-color: var(--grey);
   color: black;
-}
-#news {
-  background-color: lightcyan;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  font-size: 25px;
-  padding: 40px;
-}
-#stream {
-  background-color: antiquewhite;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  padding: 40px;
-  font-size: 25px;
-  margin-top: 76px;
-  margin-bottom: 60px;
-}
-#faculty {
-  background-color: lightcyan;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  font-size: 25px;
-  padding: 40px;
 }
 .nav-menu.active {
   background-color: white;
