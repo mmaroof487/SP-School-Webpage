@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .body {
-  width: 1250px;
+  max-width: 80%;
   height: auto;
   margin: auto;
   background-color: #ececec;
@@ -11,6 +17,8 @@
 }
 #logo {
   float: left;
+  position: relative;
+  width: 150px;
 }
 #child {
   background-color: ghostwhite;
@@ -30,8 +38,6 @@
 }
 #list {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
 }
 #list > li {
   display: inline-block;
@@ -53,19 +59,23 @@ a:hover {
 }
 #img {
   float: right;
+  margin: 10px;
 }
+#anthem,
+#gmap,
 #wiki {
-  font-size: medium;
+  font-weight: bold;
 }
-.tel {
-  padding: 0px;
+audio {
+  width: 400px;
+  height: 40px;
 }
-.email {
-  padding: 0px;
+#wikia {
+  font-weight: bold;
+  font-size: large;
 }
 #copyright {
   float: right;
-  margin: 0px;
 }
 #clearfix {
   clear: both;
@@ -129,4 +139,38 @@ td {
 }
 .nav-menu.active {
   background-color: white;
+}
+@media (max-width: 800px) {
+  #child {
+    font-size: 18px;
+  }
+  .body p {
+    font-size: 17px;
+  }
+  #logo {
+    height: 125px;
+  }
+  #img {
+    width: 250px;
+  }
+  iframe {
+    width: 450px;
+    height: 250px;
+  }
+  a {
+    font-size: 10px;
+  }
+  audio {
+    width: 200px;
+    height: 25px;
+  }
+  #wikia {
+    font-size: small;
+  }
+  #copyright,
+  th,
+  .tel,
+  .email {
+    font-size: x-small;
+  }
 }
