@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 :root {
   --shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -17,10 +19,11 @@
   background-color: antiquewhite;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  height: 130px;
+  text-align: center;
 }
 #logo {
   float: left;
-  position: relative;
   width: 150px;
 }
 #child {
@@ -28,7 +31,17 @@
   color: midnightblue;
   font-weight: bold;
   font-style: italic;
-  margin: 15px;
+  position: relative;
+  top: 40px;
+  text-decoration-line: underline;
+  word-spacing: 10px;
+  font-family: serif;
+  padding: 10px;
+}
+.line {
+  background-color: gray;
+  height: 1px;
+  margin: 4px;
 }
 #baby,
 #hist,
@@ -49,6 +62,7 @@
 }
 #mainmenu {
   background-color: var(--grey);
+  text-align: center;
 }
 #list {
   list-style-type: none;
@@ -59,6 +73,10 @@
 #list > li:hover {
   background-color: ghostwhite;
   color: midnightblue;
+}
+p {
+  margin-bottom: 20px;
+  word-wrap: break-word;
 }
 a {
   color: black;
@@ -78,27 +96,45 @@ a:hover {
 #anthem,
 #gmap,
 #wiki {
-  font-weight: bold;
+  font-weight: 600;
 }
-audio {
+#anthemaudio,
+#gmapiframe,
+#wikilink {
+  text-align: center;
+}
+#anthemaudio audio {
   width: 400px;
   height: 40px;
+  margin-bottom: 20px;
+}
+#gmapiframe {
+  margin-bottom: 20px;
 }
 #wikia {
   font-weight: bold;
   font-size: large;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
 }
 #copyright {
   float: right;
+  word-spacing: 5px;
+  font-weight: 600;
 }
 #clearfix {
   clear: both;
 }
-#contact {
-  float: left;
-}
 footer {
   font-size: small;
+}
+#contactlist {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+#contactlist > li {
+  display: inline-block;
+  margin: 10px;
 }
 .gallery {
   margin: 10px;
@@ -128,7 +164,7 @@ td {
 .nav-menu.active {
   background-color: white;
 }
-@media (max-width: 800px) {
+@media (width < 800px) {
   #child {
     font-size: 18px;
   }
@@ -138,12 +174,13 @@ td {
   #logo {
     height: 125px;
   }
-  #img {
-    width: 250px;
+  #img,
+  #anthemaudio audio {
+    width: 200px;
   }
   iframe {
     width: 450px;
-    height: 250px;
+    height: 200px;
   }
   a,
   #copyright,
@@ -158,5 +195,8 @@ td {
   }
   #wikia {
     font-size: small;
+  }
+  #wikia {
+    letter-spacing: 0;
   }
 }
