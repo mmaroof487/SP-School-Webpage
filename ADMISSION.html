@@ -1,136 +1,125 @@
 <html>
-  <head>
-    <title>ADMISSION</title>
-    <link rel="stylesheet" href="assets/style.css" />
-  </head>
-    <div id="parent">
+   <head>
+      <title>ADMISSION</title>
+      <link rel="stylesheet" href="assets/style.css" />
+   </head>
+   <body class="body"></body>
+   <div id="parent">
       <img src="assets/images/top3.jpg" alt="image not found" id="logo"> 
-      <center>
-         <br><br>
-         <h1><span id="child">&nbsp <u> SRI &nbsp PRATAP &nbsp HIGHER &nbsp SECONDARY &nbsp SCHOOL
-            </u> &nbsp</span>
-         </h1>
-         <br>
-      </center>
-      <br><br>  
-      <hr>
+      <h1><span id="child"> SRI PRATAP HIGHER SECONDARY SCHOOL</span></h1>
    </div>
-</head>
-<hr>
-<body class="body">
+   <div class="line"></div>
    <!--navigation bar-->
-   <center>
-      <nav id="mainmenu">
-         <div>
-               <ul id="list">
-                <li> <a href="index.html" class="nav-menu"> HOME</a></li>
-                <li> <a href="gallery.html" class="nav-menu"> GALLERY</a></li>
-                <li> <a href="history.html" class="nav-menu"> HISTORY</a></li>
-                <li> <a href="admission.html" class="nav-menu active"> ADMISSION</a></li>
-                <li> <a href="news.html" class="nav-menu"> NEWS</a></li>
-                <li> <a href="streams.html" class="nav-menu">STREAM</a></li>
-                <li> <a href="faculty.html" class="nav-menu"> FACULTY</a></li>
-               </ul>
-         </div>
-      </nav>
-   </center>
-   <hr>
-    <div id="adm">
+   <nav id="mainmenu">
+      <ul id="list">
+         <li> <a href="index.html" class="nav-menu"> HOME</a></li>
+         <li> <a href="gallery.html" class="nav-menu"> GALLERY</a></li>
+         <li> <a href="history.html" class="nav-menu"> HISTORY</a></li>
+         <li> <a href="admission.html" class="nav-menu active"> ADMISSION</a></li>
+         <li> <a href="news.html" class="nav-menu"> NEWS</a></li>
+         <li> <a href="streams.html" class="nav-menu">STREAM</a></li>
+         <li> <a href="faculty.html" class="nav-menu"> FACULTY</a></li>
+      </ul>
+   </nav>
+   <div class="line"></div>
+   <main id="adm">
       <p>
-        Usually admissions are considered only for 11th. Admission to other
-        classes is subject to vacancies. Admission to 12th is granted by the
-        Principal after the child qualifies in the 11th exams. For the other
-        classes the type of test, the mode of selection, etc are fixed by the
-        Principal. The Principal reserves the rights to use his discretion in
-        the admission rules. Recommendations from people and coercion of any
-        sort will reduce the chance of your child’s admission. <br />
-        <br />
-        For students that are migrating from someother school, they have to wait
-        until orders from the BOARD of Education.<br /><br /><br /><br /><br />
+         Usually admissions are considered only for 11th. Admission to other
+         classes is subject to vacancies. Admission to 12th is granted by the
+         Principal after the child qualifies in the 11th exams. For the other
+         classes the type of test, the mode of selection, etc are fixed by the
+         Principal. The Principal reserves the rights to use his discretion in
+         the admission rules. Recommendations from people and coercion of any
+         sort will reduce the chance of your child’s admission.
+         For students that are migrating from someother school, they have to wait
+         until orders from the BOARD of Education.
       </p>
-
-      <center>
-        <table>
-          <form method="get" autocomplete="on">
-            <legend><strong> <ins> REGISTRATION</ins></strong></legend>
-            <br />
-            <tr>
-              <td>
-                <label for="r-name">NAME: &nbsp &nbsp</label> </td>
-              <td>
-                <input
-                  name="r-name"
-                  id="r-name"
-                  type="text"
-                  placeholder="ENTER NAME"
-                  required
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="r-dob"> DATE OF BIRTH: &nbsp &nbsp</label></td>
-              <td><input type="date" name="r-dob" id="r-dob" required /></td>
-            </tr>
-            <tr>
-              <td> <label for="r-class"> CLASS: &nbsp&nbsp</label></td>
-              <td>
-                <select name="r-class" id="r-class" size="1" required>
-                  <option value="9th">9th</option>
-                  <option value="10th">10th</option>
-                  <option value="11th">11th</option>
-                  <option value="12th">12th</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td> <label for="r-district"> DISTRICT: &nbsp&nbsp</label></td>
-              <td>
-                <select name="r-district" id="r-district" size="1" required>
-                  <option value="SRINAGAR">SRINAGAR</option>
-                  <option value="GANDERBAL">GANDERBAL</option>
-                  <option value="KUPWARA">KUPWARA</option>
-                  <option value="BUDGAM">BUDGAM</option>
-                  <option value="GANDERBAL">GANDERBAL</option>
-                  <option value="BANDIPURA">BANDIPURA</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td><label for="r-school">PREVIOUS SCHOOL: &nbsp&nbsp</label></td>
-              <td>
-                <input
-                  type="text"
-                  name="r-school"
-                  id="r-school"
-                  placeholder="PREVIOUS SCHOOL"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td> <label for="r-marks"> PREVIOUS YEAR PERCENTAGE:&nbsp&nbsp</label></td>
-              <td>
-                <input
-                  name="r-marks"
-                  id="r-marks"
-                  type="number"
-                  min="40"
-                  max="100"
-                  step="1"
-                  value="75"
-                />%
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <input type="submit" value="SUBMIT" id="sub-adm" />
-              </td>
-            </tr>
-          </form>
-        </table>
-        <br />
-      </center>
-    </div>
-  </body>
+      <div id="admform">
+         <div role="subdiv">
+            <table>
+               <form method="get" autocomplete="on">
+                  <tr>
+                     <th>REGISTRATION</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label for="r-name">NAME: </label> 
+                     </td>
+                     <td>
+                        <input
+                           name="r-name"
+                           id="r-name"
+                           type="text"
+                           placeholder="ENTER NAME"
+                           required
+                           />
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label for="r-dob"> DATE OF BIRTH:</label>
+                     </td>
+                     <td><input type="date" name="r-dob" id="r-dob" required /></td>
+                  </tr>
+                  <tr>
+                     <td> <label for="r-class"> CLASS:</label></td>
+                     <td>
+                        <select name="r-class" id="r-class" size="1" required>
+                           <option value="9th">9th</option>
+                           <option value="10th">10th</option>
+                           <option value="11th">11th</option>
+                           <option value="12th">12th</option>
+                        </select>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td> <label for="r-district"> DISTRICT:</label></td>
+                     <td>
+                        <select name="r-district" id="r-district" size="1" required>
+                           <option value="SRINAGAR">SRINAGAR</option>
+                           <option value="GANDERBAL">GANDERBAL</option>
+                           <option value="KUPWARA">KUPWARA</option>
+                           <option value="BUDGAM">BUDGAM</option>
+                           <option value="GANDERBAL">GANDERBAL</option>
+                           <option value="BANDIPURA">BANDIPURA</option>
+                        </select>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><label for="r-school">PREVIOUS SCHOOL:</label></td>
+                     <td>
+                        <input
+                           type="text"
+                           name="r-school"
+                           id="r-school"
+                           placeholder="PREVIOUS SCHOOL"
+                           />
+                     </td>
+                  </tr>
+                  <tr>
+                     <td> <label for="r-marks"> PREVIOUS YEAR PERCENTAGE:</label></td>
+                     <td>
+                        <input
+                           name="r-marks"
+                           id="r-marks"
+                           type="number"
+                           min="40"
+                           max="100"
+                           step="1"
+                           value="75"
+                           />%
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>
+                        <input type="submit" value="SUBMIT" id="sub-adm" />
+                     </td>
+                  </tr>
+               </form>
+            </table>
+         </div>
+      </div>
+   </main>
+   </body>
 </html>
