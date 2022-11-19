@@ -193,6 +193,42 @@ td label {
 #sub-adm:hover {
   background-color: rgb(91, 91, 91);
   color: white;
+<<<<<<< HEAD
+=======
+}
+.download {
+  font-size: medium;
+  display: inline;
+  text-decoration: underline;
+  color: blue;
+}
+#stream {
+  display: flex;
+  justify-content: space-evenly;
+}
+#science {
+  display: inline-block;
+}
+#sc-list > li {
+  display: inline-block;
+  margin: 20px;
+}
+#commerce {
+  display: inline-block;
+}
+#com-list {
+  list-style-type: circle;
+  margin-top: 20px;
+}
+#com-list li {
+  margin: 5px;
+}
+#faculty {
+  text-align: center;
+}
+#faculty div {
+  display: inline-block;
+>>>>>>> aeeffb8efa98f88feec7028ee51e097a73fdb5b0
 }
 .download {
   font-size: medium;
